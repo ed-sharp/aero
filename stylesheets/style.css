@@ -100,6 +100,16 @@ body {
 
 .submit {	text-align:	center;	}
 
+input[type=submit]:hover {
+	background-color: black;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+input[type=submit]: focus {
+	outline: 0;
+}
+
 .submit input {
 	color:				#ffffff;
 	font-size:			95%;
